@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "Іван Петрович",
+    "Salary": 50000,
+    "Experience": 2
+  },
+  {
+    "Name": "Марія Василівна",
+    "Salary": 60000,
+    "Experience": 4
+  },
+  {
+    "Name": "Олексій Миколайович",
+    "Salary": 45000,
+    "Experience": 1
+  },
+  {
+    "Name": "Наталія Іванівна",
+    "Salary": 55000,
+    "Experience": 3
+  },
+  {
+    "Name": "Ігор Віталійович",
+    "Salary": 65000,
+    "Experience": 5
+  },
+  {
+    "Name": "Олена Михайлівна",
+    "Salary": 55000,
+    "Experience": 2
+  },
+  {
+    "Name": "Василь Ігорович",
+    "Salary": 48000,
+    "Experience": 1
+  },
+  {
+    "Name": "Людмила Олександрівна",
+    "Salary": 52000,
+    "Experience": 2
+  },
+  {
+    "Name": "Олександр Сергійович",
+    "Salary": 60000,
+    "Experience": 3
+  },
+  {
+    "Name": "Тетяна Юріївна",
+    "Salary": 58000,
+    "Experience": 4
+  }
+]

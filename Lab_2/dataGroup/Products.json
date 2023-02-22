@@ -1,0 +1,79 @@
+[
+    {
+      "Name": "Apple",
+      "Group": "Fruits",
+      "Price": 0.5
+    },
+    {
+      "Name": "Banana",
+      "Group": "Fruits",
+      "Price": 0.25
+    },
+    {
+      "Name": "Mango",
+      "Group": "Fruits",
+      "Price": 1.0
+    },
+    {
+      "Name": "Tomato",
+      "Group": "Vegetables",
+      "Price": 0.4
+    },
+    {
+      "Name": "Carrot",
+      "Group": "Vegetables",
+      "Price": 0.3
+    },
+    {
+      "Name": "Kale",
+      "Group": "Vegetables",
+      "Price": 1.5
+    },
+    {
+      "Name": "Beef",
+      "Group": "Meat",
+      "Price": 8.99
+    },
+    {
+      "Name": "Chicken",
+      "Group": "Meat",
+      "Price": 5.99
+    },
+    {
+      "Name": "Pork",
+      "Group": "Meat",
+      "Price": 7.99
+    },
+    {
+      "Name": "Milk",
+      "Group": "Dairy",
+      "Price": 2.5
+    },
+    {
+      "Name": "Cheese",
+      "Group": "Dairy",
+      "Price": 4.99
+    },
+    {
+      "Name": "Yogurt",
+      "Group": "Dairy",
+      "Price": 1.99
+    },
+    {
+      "Name": "Bread",
+      "Group": "Bakery",
+      "Price": 3.99
+    },
+    {
+      "Name": "Croissant",
+      "Group": "Bakery",
+      "Price": 1.99
+    },
+    {
+      "Name": "Bagel",
+      "Group": "Bakery",
+      "Price": 1.49
+    }
+]
+
+

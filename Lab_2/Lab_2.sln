@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataSort", "dataSort\dataSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataGroup", "dataGroup\dataGroup.csproj", "{E9D6A076-E949-4549-A82D-7FCA51869B5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegateCreator", "delegateCreator\delegateCreator.csproj", "{04C387B2-0313-4FF2-9B57-C9517237A9FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{E9D6A076-E949-4549-A82D-7FCA51869B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D6A076-E949-4549-A82D-7FCA51869B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D6A076-E949-4549-A82D-7FCA51869B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C387B2-0313-4FF2-9B57-C9517237A9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C387B2-0313-4FF2-9B57-C9517237A9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C387B2-0313-4FF2-9B57-C9517237A9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C387B2-0313-4FF2-9B57-C9517237A9FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

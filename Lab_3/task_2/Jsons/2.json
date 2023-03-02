@@ -1,0 +1,77 @@
+[
+  {
+    "Name": "Milk",
+    "Group": "Dairy",
+    "Price": 1.50
+  },
+  {
+    "Name": "Yogurt",
+    "Group": "Dairy",
+    "Price": 2.00
+  },
+  {
+    "Name": "Cheese",
+    "Group": "Dairy",
+    "Price": 3.50
+  },
+  {
+    "Name": "Butter",
+    "Group": "Dairy",
+    "Price": 2.50
+  },
+  {
+    "Name": "Ice Cream",
+    "Group": "Dairy",
+    "Price": 4.00
+  },
+  {
+    "Name": "Carrots",
+    "Group": "Vegetables",
+    "Price": 0.75
+  },
+  {
+    "Name": "Broccoli",
+    "Group": "Vegetables",
+    "Price": 1.50
+  },
+  {
+    "Name": "Cauliflower",
+    "Group": "Vegetables",
+    "Price": 1.00
+  },
+  {
+    "Name": "Tomatoes",
+    "Group": "Vegetables",
+    "Price": 1.25
+  },
+  {
+    "Name": "Potatoes",
+    "Group": "Vegetables",
+    "Price": 0.50
+  },
+  {
+    "Name": "Salmon",
+    "Group": "Fish",
+    "Price": 10.00
+  },
+  {
+    "Name": "Tuna",
+    "Group": "Fish",
+    "Price": 8.00
+  },
+  {
+    "Name": "Shrimp",
+    "Group": "Fish",
+    "Price": 12.00
+  },
+  {
+    "Name": "Cod",
+    "Group": "Fish",
+    "Price": 6.00
+  },
+  {
+    "Name": "Sardines",
+    "Group": "Fish",
+    "Price": 4.00
+  }
+]

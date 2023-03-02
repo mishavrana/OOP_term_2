@@ -1,0 +1,77 @@
+[
+  {
+  "Name": "Beef",
+  "Group": "Meat",
+  "Price": 10.50
+},
+  {
+    "Name": "Chicken",
+    "Group": "Meat",
+    "Price": 6.00
+  },
+  {
+    "Name": "Pork",
+    "Group": "Meat",
+    "Price": 8.50
+  },
+  {
+    "Name": "Lamb",
+    "Group": "Meat",
+    "Price": 12.00
+  },
+  {
+    "Name": "Ground Beef",
+    "Group": "Meat",
+    "Price": 7.50
+  },
+  {
+    "Name": "Apple",
+    "Group": "Fruits",
+    "Price": 0.50
+  },
+  {
+    "Name": "Banana",
+    "Group": "Fruits",
+    "Price": 0.25
+  },
+  {
+    "Name": "Orange",
+    "Group": "Fruits",
+    "Price": 0.75
+  },
+  {
+    "Name": "Strawberries",
+    "Group": "Fruits",
+    "Price": 2.00
+  },
+  {
+    "Name": "Blueberries",
+    "Group": "Fruits",
+    "Price": 1.50
+  },
+  {
+    "Name": "Chocolate Bar",
+    "Group": "Confectionery",
+    "Price": 1.50
+  },
+  {
+    "Name": "Gummy Bears",
+    "Group": "Confectionery",
+    "Price": 2.00
+  },
+  {
+    "Name": "Candy",
+    "Group": "Confectionery",
+    "Price": 3.50
+  },
+  {
+    "Name": "Cookies",
+    "Group": "Confectionery",
+    "Price": 2.50
+  },
+  {
+    "Name": "Cake",
+    "Group": "Confectionery",
+    "Price": 4.00
+  }
+]

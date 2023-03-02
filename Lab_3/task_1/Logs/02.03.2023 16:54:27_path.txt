@@ -1,0 +1,3 @@
+/Users/mishavrana/Documents/KNUTE/Term_4/OOP/Practical/Lab_3/task_1/time_and_price.csv
+/Users/mishavrana/Documents/KNUTE/Term_4/OOP/Practical/Lab_3/task_1/time_and_price.csv
+/Users/mishavrana/Documents/KNUTE/Term_4/OOP/Practical/Lab_3/task_1/time_and_price.csv

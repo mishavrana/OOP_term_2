@@ -1,0 +1,2 @@
+Criteria: 1
+Value: Confectionery

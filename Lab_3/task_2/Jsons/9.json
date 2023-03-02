@@ -1,0 +1,77 @@
+[
+  {
+    "Name": "Apple",
+    "Group": "Fruits",
+    "Price": 0.50
+  },
+  {
+    "Name": "Banana",
+    "Group": "Fruits",
+    "Price": 0.25
+  },
+  {
+    "Name": "Orange",
+    "Group": "Fruits",
+    "Price": 0.75
+  },
+  {
+    "Name": "Strawberries",
+    "Group": "Fruits",
+    "Price": 2.00
+  },
+  {
+    "Name": "Blueberries",
+    "Group": "Fruits",
+    "Price": 1.50
+  },
+  {
+    "Name": "Carrots",
+    "Group": "Vegetables",
+    "Price": 0.75
+  },
+  {
+    "Name": "Broccoli",
+    "Group": "Vegetables",
+    "Price": 1.50
+  },
+  {
+    "Name": "Cauliflower",
+    "Group": "Vegetables",
+    "Price": 1.00
+  },
+  {
+    "Name": "Tomatoes",
+    "Group": "Vegetables",
+    "Price": 1.25
+  },
+  {
+    "Name": "Potatoes",
+    "Group": "Vegetables",
+    "Price": 0.50
+  },
+  {
+    "Name": "Salmon",
+    "Group": "Fish",
+    "Price": 10.00
+  },
+  {
+    "Name": "Tuna",
+    "Group": "Fish",
+    "Price": 8.00
+  },
+  {
+    "Name": "Shrimp",
+    "Group": "Fish",
+    "Price": 12.00
+  },
+  {
+    "Name": "Cod",
+    "Group": "Fish",
+    "Price": 6.00
+  },
+  {
+    "Name": "Sardines",
+    "Group": "Fish",
+    "Price": 4.00
+  }
+]

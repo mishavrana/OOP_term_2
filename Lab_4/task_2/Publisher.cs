@@ -6,12 +6,12 @@ public class Publisher: IPublisher
 {
     
     // Subscribe to the event
-    private event DateTimeDelegate? _dateTimeEvent;
+    private event DateTimeDelegate? DateTimeEvent;
     
     
     public void Subscribe(DateTimeDelegate dateTimeHandler)
     {
-        _dateTimeEvent += dateTimeHandler;
+        DateTimeEvent += dateTimeHandler;
     }
     
     // Start publishing
@@ -19,8 +19,8 @@ public class Publisher: IPublisher
     {
         while (true)
         {
-            if (_dateTimeEvent != null)
-                _dateTimeEvent(DateTime.Now);
+            if (DateTimeEvent != null)
+                DateTimeEvent(DateTime.Now);
 
             Thread.Sleep(1000);
         }

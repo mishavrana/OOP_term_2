@@ -1,45 +1,41 @@
-﻿using System.Reflection.Metadata;
+﻿using System;
+using System.Net.Http.Headers;
+using System.Reflection.Metadata;
+using System.Runtime.InteropServices.JavaScript;
 
 namespace Task_1;
 
 class Program
 {
-    // Events
-    private static event Action? EventOne;
-    private static event Action? EventTwo;
-
-
     static void Main(string[] args)
     {
-        // Creating an instance of an 'EventBus'
-        EventBus eventBus = new EventBus(10000);
+        Handler handler = new Handler();
+        EventBus eventBus = new EventBus(200);
         
-        // Register event handlers for the events
-        eventBus.Subscribe("eventOne", HandleEventOne);
-        eventBus.Subscribe("eventTwo", HandleEventTwo);
-
-        // Activate the 'eventOne' and 'eventTwo' for two times each
-        for (int i = 0; i < 2; i++)
-        {
-            eventBus.Dispatch("eventOne", EventOne);
-            //Thread.Sleep(200);
-            eventBus.Dispatch("eventTwo", EventTwo);
-            //Thread.Sleep(200);
-        }
+        // Subscribe to event
+        handler.DateTimeEvent += eventBus.GetHandlers;
         
-        // Unregister events
-        eventBus.UnSubscribe("eventOne");
-        eventBus.UnSubscribe("eventTwo");
-
+        // Register handlers
+        eventBus.Register(DisplayTodayDate);
+        eventBus.Register(DisplayTomorrowDay);
+        
+        // Running in different thread allows to dynamically register and unregister handlers
+        var loopThread = new Thread(handler.Run);
+        loopThread.Start();
+        
+        Thread.Sleep(1000);
+        eventBus.UnRegister(DisplayTomorrowDay);
+        eventBus.UnRegister(DisplayTodayDate);
+        
         // Event handlers
-        static void HandleEventOne()
+        static void DisplayTodayDate(object sender, EventArgs eventArgs)
         {
-            Console.WriteLine("Handled event #1");
+            Console.WriteLine(DateTime.Now);
         }
 
-        static void HandleEventTwo()
+        static void DisplayTomorrowDay(object sender, EventArgs eventArgs)
         {
-            Console.WriteLine("Handled event #2");
+            Console.WriteLine(DateTime.Now.AddDays(1));
         }
     }
 }

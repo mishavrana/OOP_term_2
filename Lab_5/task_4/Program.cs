@@ -23,12 +23,15 @@ class Program
         Thread thread4 = new Thread(() => Multiply(1, 0, 0, 1, 1, 1));
         
         // Start threads
+        Monitor.Enter(_lockObj);
         thread1.Start();
         thread2.Start();
+        Monitor.Exit(_lockObj);
         thread3.Start();
         thread4.Start();
+       
 
-        // Wait for threads to finish
+        //Wait for threads to finish
         thread1.Join();
         thread2.Join();
         thread3.Join();
@@ -44,12 +47,6 @@ class Program
 
     static void Multiply(int jMatrixA, int iMatrixA, int jMatrixB, int iMatrixB, int jResult, int iResult)
     {
-
-        Monitor.Enter(_lockObj);
-        var copyMatrixA = _matrixA;
-        var copyMatrixB = _matrixB;
-        Monitor.Exit(_lockObj);
-
         int jA = jMatrixA;
         int iA = iMatrixA;
 
@@ -57,12 +54,11 @@ class Program
         int iB = iMatrixB;
 
         var result = 0;
-        _semaphore.Release();
         for (var ia = iA; ia < 3; ia++)
         {
             for (var jb = ia - 1; jb < ia; jb++)
             {
-                result += copyMatrixA[jA, ia] * copyMatrixB[jb + 1, iB];
+                result += _matrixA[jA, ia] * _matrixB[jb + 1, iB];
             }
 
         }
